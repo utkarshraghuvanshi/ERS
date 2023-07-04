@@ -10,14 +10,14 @@
       font-size: 20px;
       color: aliceblue;
       padding: 8px;
-      text-decoration: none;
+      text-decoration:none
   }
-#registerForEmployees{
+#loginForEmployees{
     text-align: center;
-    margin-top: 5%;
-
+    margin-top: 10%;
 }
-#email, #password,#city,#mobile ,#name{
+
+#email, #password, #role{
     padding: 5px;
     margin: 4px;
     font-size: 15px;

@@ -12,19 +12,26 @@
       padding: 8px;
       text-decoration: none;
   }
-#registerForEmployees{
-    text-align: center;
+#actionData{
     margin-top: 5%;
-
+    text-align: center;
 }
-#email, #password,#city,#mobile ,#name{
+#actionData{
+    display: flex;
+}
+#addFeedback , #updateFeedback{
+    width: 50%;
+}
+#addFeedback{
+    border-right: 1px dashed black;
+}
+input{
     padding: 5px;
     margin: 4px;
     font-size: 15px;
-    width: 25%;
-
+    width: 70%;
 }
 #button{
     padding: 3px;
-    width: 10%;
+    width: 20%;
 }
